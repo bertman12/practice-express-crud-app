@@ -87,7 +87,7 @@ app.delete('/car/:id', async function(req,res) {
     })
     console.log('req.params /car/:id; You deleted this item...', req.params);
 
-    res.json('Success, item has been deleted!');
+    res.json('Success, item has been deleted! ');
   } catch (err) {
     res.json({ success: false, message: err, data: null});
   }
